@@ -97,8 +97,6 @@ export class TaskContract {
                 break;
         }
     }
-
-
 }
 
 function is_initialized(): bool {

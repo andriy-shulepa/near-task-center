@@ -1,6 +1,5 @@
 import { PersistentSet, storage, u128 } from "near-sdk-as"
 import {AccountId} from "../../../utils";
-import {TaskStatus} from "../../task/assembly/models";
 
 export const CONTAINER_KEY = "task-container"
 
@@ -31,7 +30,6 @@ export class TaskContainer {
         tasks.add(task)
     }
 }
-
 
 @nearBindgen
 export class TaskInitArgs {

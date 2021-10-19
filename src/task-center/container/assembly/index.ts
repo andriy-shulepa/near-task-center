@@ -23,7 +23,6 @@ export class ContainerContract {
         logging.log("Task container was created")
     }
 
-
     get_task_list(): AccountId[] {
        return TaskContainer.getTaskList()
     }
@@ -84,8 +83,6 @@ export class ContainerContract {
                 break;
         }
     }
-
-
 }
 
 function is_initialized(): bool {
