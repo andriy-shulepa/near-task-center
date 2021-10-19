@@ -1,0 +1,6 @@
+{
+  "workspaces": [
+    "src/task-center/task",
+    "src/task-center/container"
+  ]
+}
